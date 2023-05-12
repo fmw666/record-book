@@ -9,8 +9,11 @@
         * [Python Web](2-个人/技术/Python_web.md)
         * [数据库](2-个人/技术/database.md)
         * [系统设计](2-个人/技术/system_design.md)
+        * [hr 问题](2-个人/技术/hr_question.md)
     * [追剧](2-个人/追剧/README.md)
         * [看过的日剧](2-个人/追剧/看过的日剧.md)
         * [看过的韩剧](2-个人/追剧/看过的韩剧.md)
+* [3. 笔记](3-笔记/README.md)
+    * [西方哲学史](3-笔记/西方哲学史/README.md)
 
 
