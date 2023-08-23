@@ -13,14 +13,37 @@
     },
 
     "plugins": [
+        "anchor-navigation-ex",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "expandable-chapters",
+        "hide-element",
+        "highlight",
         "livereload",
-        "theme-comscore",
-        "splitter"
+        "page-treeview",
+        "splitter",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "tags",
+        "theme-comscore"
     ],
 
     "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": false
+        },
         "theme-default": {
-            "showLevel": true
+            "showLevel": false
+        },
+        "hide-element": {
+            "elements": [".gitbook-link", ".treeview__container-title"]
         }
+    },
+
+    "styles": {
+        "website": "styles/website.css"
     }
 }

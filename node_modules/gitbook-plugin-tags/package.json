@@ -1,0 +1,35 @@
+{
+    "name": "gitbook-plugin-tags",
+    "description": "Add tags to GitBook",
+    "version": "1.5.2",
+    "engines": {
+        "gitbook": "*"
+    },
+    "homepage": "https://github.com/billryan/gitbook-plugin-tags",
+    "dependencies": {
+      "github-slugid": "^1.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/billryan/gitbook-plugin-tags.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/billryan/gitbook-plugin-tags/issues"
+    },
+    "gitbook": {
+        "properties": {
+            "placement": {
+                "type": "string",
+                "description": "placement to display tags on the page",
+                "default": "top"
+            }
+        }
+    },
+    "keywords": [
+      "gitbook",
+      "plugin",
+      "tag"
+    ],
+    "author": "Bill Ryan <yuanbin2014@gmail.com>"
+}

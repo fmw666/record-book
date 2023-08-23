@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "gitbook-plugin-livereload": "^0.0.1"
+    "gitbook-plugin-livereload": "^0.0.1",
+    "gitbook-plugin-tags": "^1.5.2"
   }
 }
