@@ -1,0 +1,113 @@
+.book .book-summary, .book .book-body  {
+    font-family: "Microsoft YaHei UI", "Microsoft Yahei", "PingFang SC", "Lantinghei SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Noto Sans CJK SC", "Microsoft JhengHei UI", "Microsoft JhengHei", "PingFang TC", "Lantinghei TC", "Noto Sans CJK TC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    border-bottom: 1px solid #EFEAEA;
+}
+
+h3, h4 {
+    color: #1F9FCC;
+}
+
+blockquote {
+    margin: 1.4em 0 !important;
+}
+
+.page-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#anchor-navigation-ex-navbar {
+    border-radius: 2px !important;
+}
+
+#anchor-navigation-ex-navbar > ul {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+#anchor-navigation-ex-navbar > ul > li {
+    padding-bottom: 5px;
+}
+
+/* 导航栏一级标题 */
+#anchor-navigation-ex-navbar > ul > li > .title-icon + a {
+    color: #1F9FCC !important;
+    font-weight: 600;
+}
+
+/* 导航栏二级标题 */
+#anchor-navigation-ex-navbar > ul > ul > li > .title-icon + a {
+    font-size: 13px !important;
+}
+
+/* 导航栏三级标题 */
+#anchor-navigation-ex-navbar > ul > ul > ul > li > .title-icon + a {
+    font-size: 13px !important;
+}
+
+#anchor-navigation-ex-navbar > ul > ul {
+    list-style-type: circle;
+}
+
+#anchor-navigation-ex-navbar > ul > ul > ul {
+    list-style-type: circle;
+}
+
+/* 导航栏 hover 使 ul display -> black. 增加动画 */
+#anchor-navigation-ex-navbar:hover ul {
+    animation: fadeIn 0.15s ease-in-out forwards;
+    -moz-animation: fadeIn 0.15s ease-in-out forwards; /* Firefox */
+    -webkit-animation: fadeIn 0.15s ease-in-out forwards; /* Safari and Chrome */
+    -o-animation: fadeIn 0.15s ease-in-out forwards; /* Opera */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* 动画起始状态 */
+    }
+    to {
+        opacity: 1; /* 动画结束状态 */
+    }
+}
+
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1F9FCC;
+    border-radius: 10px;
+}
+
+/* .header, .chapter a, .chapter span {
+    padding-left: 20px !important;
+} */
+
+#rewardButton span {
+    background-color: #1F9FCC;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#rewardButton span:hover {
+    background-color: #0f8ab7;
+}
+
+#wechat:hover p {
+    animation: none;
+    -webkit-animation: none;
+    -moz-animation: none;
+}
+
+#alipay:hover p {
+    animation: none;
+    -webkit-animation: none;
+    -moz-animation: none;
+}
