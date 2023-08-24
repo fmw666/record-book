@@ -2,17 +2,18 @@
     "root": "./docs",
     "title": "title of gitbook",
     "description": "description of gitbook",
-    "author": "author name",
+    "author": "fmw666",
     "language": "zh-hans",
     "gitbook": ">=3.0.0",
 
     "links" : {
         "sidebar" : {
-            "Home" : "https://github.com/dunwu/gitbook-notes"
+            "Home" : "https://github.com/fmw666/record-book"
         }
     },
 
     "plugins": [
+        "advanced-emoji",
         "anchor-navigation-ex",
         "back-to-top-button",
         "chapter-fold",
@@ -22,11 +23,14 @@
         "highlight",
         "livereload",
         "page-treeview",
+        "popup",
+        "recently-updated",
         "splitter",
         "-lunr",
         "-search",
         "search-pro",
         "tags",
+        "todo",
         "theme-comscore"
     ],
 

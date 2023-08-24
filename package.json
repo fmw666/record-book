@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "gitbook-plugin-livereload": "^0.0.1",
-    "gitbook-plugin-tags": "^1.5.2"
+    "gitbook-plugin-mermaid": "^0.0.9",
+    "gitbook-plugin-tags": "^1.5.2",
+    "gitbook-plugin-todo": "^0.1.3"
   }
 }
