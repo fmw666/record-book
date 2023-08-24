@@ -14,6 +14,35 @@ blockquote {
     margin: 1.4em 0 !important;
 }
 
+input[type=checkbox]{
+    margin-left: -2em;
+}
+
+/* 搜索框 */
+#book-search-input > input::placeholder {
+    content: "自定义内容" !important; /* 设置自定义文本内容 */
+}
+
+/* 分组 */
+.summary > .header {
+    font-weight: bold;
+}
+
+.summary > .chapter > a > .exc-trigger {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+
+/* 文章标签 */
+.tags {
+    margin-bottom: 0.4em !important;
+}
+
+.tags a {
+    font-size: 0.9em !important;
+}
+
 .page-inner {
     padding-left: 20px;
     padding-right: 20px;
@@ -57,14 +86,30 @@ blockquote {
 }
 
 /* 导航栏 hover 使 ul display -> black. 增加动画 */
-#anchor-navigation-ex-navbar:hover ul {
-    animation: fadeIn 0.15s ease-in-out forwards;
-    -moz-animation: fadeIn 0.15s ease-in-out forwards; /* Firefox */
-    -webkit-animation: fadeIn 0.15s ease-in-out forwards; /* Safari and Chrome */
-    -o-animation: fadeIn 0.15s ease-in-out forwards; /* Opera */
+#anchor-navigation-ex-navbar:hover {
+    animation: fadeIn1 0.15s ease-in-out forwards;
+    -moz-animation: fadeIn1 0.15s ease-in-out forwards; /* Firefox */
+    -webkit-animation: fadeIn1 0.15s ease-in-out forwards; /* Safari and Chrome */
+    -o-animation: fadeIn1 0.15s ease-in-out forwards; /* Opera */
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn1 {
+    from {
+        opacity: 0.8; /* 动画起始状态 */
+    }
+    to {
+        opacity: 1; /* 动画结束状态 */
+    }
+}
+
+#anchor-navigation-ex-navbar:hover ul {
+    animation: fadeIn2 0.15s ease-in-out forwards;
+    -moz-animation: fadeIn2 0.15s ease-in-out forwards; /* Firefox */
+    -webkit-animation: fadeIn2 0.15s ease-in-out forwards; /* Safari and Chrome */
+    -o-animation: fadeIn2 0.15s ease-in-out forwards; /* Opera */
+}
+
+@keyframes fadeIn2 {
     from {
         opacity: 0; /* 动画起始状态 */
     }
