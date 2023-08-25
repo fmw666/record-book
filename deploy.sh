@@ -10,7 +10,12 @@ fi
 mkdir $TEMP_DIR
 
 # 通过 gitbook 命令进行编译
-gitbook install
+# 如果是 .\deploy.sh --no-install 则不执行 gitbook install
+if [ "$1" = "--no-install" ]; then
+    echo "不执行 gitbook install"
+else
+    gitbook install
+fi
 gitbook build
 
 # 提交主分支代码
