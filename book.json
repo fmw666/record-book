@@ -4,7 +4,7 @@
     "description": "description of gitbook",
     "author": "fmw666",
     "language": "zh-hans",
-    "gitbook": ">=3.0.0",
+    "gitbook": "*",
 
     "links" : {
         "sidebar" : {
@@ -15,6 +15,7 @@
     "plugins": [
         "advanced-emoji",
         "anchor-navigation-ex",
+        "archive@git+https://github.com/fmw666/gitbook-plugin-archive.git",
         "back-to-top-button",
         "chapter-fold",
         "code",
@@ -24,12 +25,10 @@
         "livereload",
         "page-treeview",
         "popup",
-        "recently-updated",
         "splitter",
         "-lunr",
         "-search",
         "search-pro",
-        "tags",
         "todo",
         "theme-comscore"
     ],

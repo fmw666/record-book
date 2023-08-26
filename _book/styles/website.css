@@ -33,16 +33,6 @@ input[type=checkbox]{
     line-height: 16px;
 }
 
-
-/* 文章标签 */
-.tags {
-    margin-bottom: 0.4em !important;
-}
-
-.tags a {
-    font-size: 0.9em !important;
-}
-
 .page-inner {
     padding-left: 20px;
     padding-right: 20px;

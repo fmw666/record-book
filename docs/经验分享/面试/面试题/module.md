@@ -119,3 +119,9 @@
 + MongoDB 是一个开源的 NoSQL 文档型数据库，它可以帮助我们快速的存储海量数据。
 
 ## Redis
+
+### 你了解 redis 底层数据结构吗？
+
++ Redis 的底层数据结构有五种，分别是：String、List、Hash、Set、ZSet。
++ String：字符串，可以是字符串、整数或者浮点数。
++ ZSet: 有序集合，字符串成员（member）与浮点数分值（score）之间的有序映射，元素的排列顺序由分值的大小决定。
