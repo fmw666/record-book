@@ -11,16 +11,16 @@ HEAD_CONTENT = """# Summary
 
 * [本文介绍](README.md)
 * [标签归档](tags.md)
-* [时间归档](dates.md)
+* [时间归档](date.md)
 """
 SKIP_GROUP_LIST = ["styles"]
 SKIP_FILENAME_LIST = ["README.md"]
 SKIP_DIRNAME_LIST = ["img"]
 GROUP_EMOJI_DICT = {
-    "计划及记录": "🎯",
+    "计划安排": "🎯",
     "技术文章": "📚",
     "知识笔记": "📝",
-    "读书笔记": "📖",
+    "日常记录": "📖",
     "经验分享": "💡",
 }
 
