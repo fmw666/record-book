@@ -23,6 +23,9 @@ gitbook 使用教程：<http://caibaojian.com/gitbook/>
 gitbook 常用命令：
 
 ```sh
+# 生成目录文件
+python script.py
+
 # 安装插件
 gitbook install
 
