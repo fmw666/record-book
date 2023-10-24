@@ -2,6 +2,20 @@
 
 ## Python Web 基础
 
+### Python 常用的应用服务器有哪些？
+
++ uWSGI
++ Gunicorn
+
+### Web 框架工作进程类型有哪些？
+
++ sync（默认）：同步工作模型，每个工作进程都是单线程的。它用于处理CPU密集型任务，但在I/O密集型任务中可能不够高效，因为每个工作进程在I/O等待时会被阻塞。
++ eventlet：使用Eventlet库的协程实现的工作模型。Eventlet允许非阻塞I/O，因此适用于I/O密集型应用程序。工作进程在I/O等待时可以切换到其他任务，提高并发性能。
++ gevent：使用Gevent库的协程实现的工作模型。
++ tornado：使用Tornado框架的工作模型。
++ thread：这是多线程工作模型，每个工作进程包含多个线程。适用于需要并行处理的应用，但注意需要小心线程安全问题。
++ geventwebsocket：专门用于支持WebSocket协议的工作模型，基于Gevent库。适用于实现WebSocket通信的应用。
+
 ### WSGI、uWSGI 和 uwsgi 是啥？
 
 + WSGI（Web Server Gateway Interface）：WSGI 是一个 Python Web 应用程序与 Web 服务器之间的 **接口规范**
